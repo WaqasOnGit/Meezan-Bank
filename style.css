@@ -24,7 +24,22 @@ justify-content:space-between;
 .nav-itmes:hover{
     background-color:#ffd900 ;
 }
-
+@media(max-width: 780px) {
+    .login-button{
+        display: none;
+    }
+    .nav-itmes{
+        display: none;
+    }
+    
+    .navbar-1{
+        display: flex;
+        justify-content:space-between;
+        }
+        #Search-icons{
+            display: flex;
+        }
+    }
 .login-button{
     border: 1px solid black;
     padding: 20px;
@@ -41,6 +56,9 @@ justify-content:space-between;
     background-color: #ffd900;
     color: black;
 }
+#Search-icons{
+    display: none;
+}
 @media(max-width: 1032px) {
     login-button{
     padding: 10px;
@@ -53,7 +71,7 @@ justify-content:space-between;
  
     }
     .nav-itmes{
-        padding: 5px;
+        padding:15px  5px;
     }
 .card-1{
     border: 1px solid transparent;
