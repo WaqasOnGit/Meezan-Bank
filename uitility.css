@@ -101,7 +101,7 @@ green
 }
 
 .FS-5{
-    font-size: 24px;
+    font-size: 19px;
 }
 .FS-4{
 font-size: 48px ;
@@ -150,6 +150,9 @@ justify-content: center;
     font-family: popp-regular;
     font-weight: 200;
     font-style: normal;
+}
+.FS-15{
+    font-size: 12px;
 }
 .boder-r{
     border: 15px solid rgb(253, 253, 255);
